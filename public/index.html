@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN Libreria animate-css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <!-- Main css -->
     <link rel="stylesheet" href="style.css" />
 
@@ -17,10 +23,16 @@
   </head>
   <body>
     <div class="text">
-      <h1>Bienvenido al Endpoint, visita:</h1>
+      <h1 class="animate__animated animate__fadeIn">
+        Bienvenido al Endpoint, visita:
+      </h1>
       <br />
-      <h4>Get:</h4>
-      <p>/products</p>
+      <h4 class="animate__animated animate__fadeInUp">Get:</h4>
+      <a
+        href="https://digital-solutions-api.herokuapp.com/products"
+        target="_blank"
+        >/products</a
+      >
     </div>
   </body>
 </html>
