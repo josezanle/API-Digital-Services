@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #1c1c1c;
+}
+h1,
+h4,
+p {
+  line-height: 1em;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to top,
+      hsla(203, 20%, 84%, 0.7) 0%,
+      hsla(201, 32%, 91%, 0.7) 100%
+    ),
+    url("banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text {
+  width: 400px;
+  padding: 1em;
+  flex-flow: column;
+  background: hsla(0, 0%, 100%, 0.7);
+  border-radius: 1em;
+  border: 3px solid #f8ac30;
+  box-shadow: 0.3em 0.3em 0.3em hsla(0, 0%, 11%, 0.4);
+}
+/* =============RESPONSIVE DESIGN=================== */
+@media (max-width: 407px) {
+  .text {
+    width: 100%;
+  }
+}
