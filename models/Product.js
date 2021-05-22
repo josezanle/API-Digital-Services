@@ -15,7 +15,6 @@ const productSchema = new Schema({
   precio: {
     type: Number,
     trim: true,
-    require: true,
   },
   items: [
     {
